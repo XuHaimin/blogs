@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+title: 道之云远
+subtitle: '永远年轻，永远热泪盈眶'
+description: '记录生活，促进学习'
+keywords: 生活,编程,阅读,音乐
+author: 青柠
 language: zh-CN
 timezone: ''
 
@@ -34,6 +34,7 @@ skip_render:
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
+auto_spacing: true
 titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
@@ -41,7 +42,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -69,8 +70,14 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  编程: programming
+  生活: life
+  阅读: reading
+  随想: thoughts
+  理财: finance
 tag_map:
-
+  敏捷开发: agile-development
+  环境搭建: environment-building
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
@@ -104,7 +111,7 @@ theme: matery
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-#  repo: https://github.com/XuHaimin/blogs
+  #  repo: https://github.com/XuHaimin/blogs
   branch: gh-pages
 search:
   path: search.xml
