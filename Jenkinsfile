@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Git Clone') {
+    stage('') {
       steps {
-        git 'https://github.com/XuHaimin/blogs.git'
+        sh 'echo HelloWorld'
       }
     }
 
